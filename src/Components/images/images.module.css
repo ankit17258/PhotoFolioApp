@@ -1,0 +1,31 @@
+
+.mainBody{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.imgContainer{
+    width: 68%;
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    margin-top: 50px;
+}
+.imgDiv{
+    /* background-color: rgb(177, 177, 190);     */
+    margin-bottom: 10px;
+    height: 200px;
+    width: 32%;
+}
+.indimg{
+    height: 40px;
+    position: relative;
+    left:65%;
+    bottom:190px;
+    margin:8px;
+} 
+.p{
+    position: relative;
+    bottom: 60px;
+}

@@ -1,0 +1,59 @@
+.bodyHeader{
+    margin-top: 40px;
+    width: 68%;
+    height:80px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.mainBody{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+.albumContainer{
+    width: 68%;
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+}
+.albumitem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(254, 251, 251);
+    height: 180px;
+    width: 190px;
+    border:5px solid rgb(238,238,238);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    cursor: pointer;
+}
+.albumitem:hover{
+    border:5px solid rgb(79,159,249);
+}
+.albumitem:hover .text{
+    /* border:5px solid rgb(79,159,249); */
+    background-color: rgb(79,159,249);
+    color: white;
+}
+.img{
+    height: 50px;
+}
+.imgdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex:4;
+}
+.text{
+    flex:1;
+    width: 100%;
+    text-align: center;
+    padding-top:10px;
+    background-color:rgb(238,238,238);
+  
+      
+}

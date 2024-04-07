@@ -1,0 +1,42 @@
+.mainBody {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(77, 75, 75, 0.5);
+    z-index: 9999; /* Adjust the z-index as needed */
+}
+.Carousal{
+    margin-top: -100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.cross{
+    position: relative;
+    left: 600px;
+    bottom:100px;
+}
+
+.button {
+    height: 50px;
+    width: 50px;
+    /* border: 1px; */
+    border-radius: 50%;
+    font-weight: bold;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: red;
+}
+
+.image {
+    height: 500px;
+    width: 900px;
+}
